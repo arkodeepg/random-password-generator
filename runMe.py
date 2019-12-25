@@ -5,7 +5,7 @@ import tkinter.messagebox
 root = Tk()
 root.title("random password")
 root.iconbitmap(r'key.ico')
-root.geometry("275x50+500+500")
+root.geometry("275x50+500+300")
 var = StringVar()
 label = Label(root, textvariable = var, font="Helvetica 12")
 var.set(password())
